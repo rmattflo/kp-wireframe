@@ -1,0 +1,117 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.navbar-item:hover {
+  opacity: 0.5;
+  transition-duration: 0.2s;
+  cursor: pointers;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+#navbar {
+	color: white;
+	background-color: #D789BB;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+a{
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+.navbar-item1{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	text-decoration: underline white;
+}
+.navbar-item2{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar-item3{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar-item4 {
+	margin-left: 20px;
+	margin-right: 50px;
+}
+.navbar-item1 :hover {
+	color: black;
+	text-decoration: underline black;
+}
+
+.title{
+	font-size: 50px;
+	text-decoration: underline #D789BB;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+.slogan {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.description {
+	color: #8c8c8c;
+}
+.order-button {
+	color: white;
+	font-size: 20px;
+  border-radius: 20px;
+  background: #D789BB;
+  width: 120px;
+  height: 30px;
+	padding: 5px;
+	text-decoration: underline white;
+	margin-top: 20px;
+	margin-bottom: 250px;
+	margin-left: 110px;
+	text-align: center;
+}
+.order-button: hover {
+	cursor: pointer;
+	color: black;
+}
+.contents{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.item {
+	margin-left: 250px;
+}
+img {
+	padding-top: 20px;
+	border:2px;
+	border-radius: 50px;
+}
+.title{
+	padding-left: 10px;
+}
+.s1 {
+	padding-left: 20px;
+}
+.s2 {
+	padding-left: 110px;
+}
+.d2 {
+	padding-left: 60px;
+}
+.where{
+	font-size: 10px;
+	vertical-align: bottom;
+	padding-left: 10px;
+}
